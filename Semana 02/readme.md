@@ -15,7 +15,7 @@
 ```
 
 2) Alterar o trecho destacado no código presente no projeto **Cepom**, a fim de implementar o fluxo ilustrado abaixo, de modo que o resultado da execução seja:
-!(Assets/fluxo_cpom.png)
+!(/Assets/fluxo_cpom.png)
 ```
    > naturezaCalculaISS: False fornecedorRecolheISS: False fornecedorDeOutroMunicipio: False municipioDoTomadorExigeCPOM: False possuiCPOM: False 
    Iniciar
