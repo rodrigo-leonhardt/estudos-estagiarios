@@ -19,29 +19,34 @@ Requisitos:
 # Referências
 
 #### Tipos
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/types
 
 #### Objetos
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/objects
 
 #### Membros, Expressões e Instruções
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks
 
 #### Construtores e Destrutores
-- 
+- https://csharp.net-tutorials.com/pt/118/classes/construtores-e-destrutores/
 
 #### Classes
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/types/classes
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/classes
 
 #### Princípios de POO (Programação Orientada à Objetos)
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/oop
 
 #### Herança
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/tutorials/inheritance
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/inheritance
+- https://csharp.net-tutorials.com/pt/122/classes/heranca/
+- http://www.macoratti.net/11/08/c_her1.htm
 
 #### Polimorfismo
-- 
+- https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/object-oriented/polymorphism
+- https://csharp.net-tutorials.com/pt/119/classes/sobrecarga-de-metodo/
 
 #### Listas de vídeos sobre o tema (escolha e acompanhe a que te agradar mais)
-- 
-- 
+- https://www.youtube.com/playlist?list=PLWXw8Gu52TRKlAqSfkdhSTPtAfAcYko5E
+- https://www.youtube.com/playlist?list=PLfvOpw8k80Wreysmw8fonLCBw8kiiYjIU
