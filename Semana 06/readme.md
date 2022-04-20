@@ -23,22 +23,22 @@
 - https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
 
 #### LINQ e tipos genéricos
-https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/linq-and-generic-types
+- https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/linq-and-generic-types
 
 #### Operações de consulta LINQ básica
-https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations#grouping
+- https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/basic-linq-query-operations#grouping
 
 #### Sintaxe de consulta e sintaxe de método em LINQ
-https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq
+- https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq
 
 #### C# - Introdução ao LINQ
-https://www.youtube.com/watch?v=ja1nORsswSU
+- https://www.youtube.com/watch?v=ja1nORsswSU
 
 #### C# - LINQ - .Where() .OrderBy() .OrderByDescending() .Reverse() - Sintaxe de método
-https://www.youtube.com/watch?v=f9g_8HOXEBM
+- https://www.youtube.com/watch?v=f9g_8HOXEBM
 
 #### C# Essentials: Linq for Lists - Sorting, Filtering, and Aggregating Lists Easily
-https://www.youtube.com/watch?v=yClSNQdVD7g
+- https://www.youtube.com/watch?v=yClSNQdVD7g
 
 #### Estudo adicional - LINQ (Consulta Integrada à Linguagem) - [Toda a seção]
 - https://docs.microsoft.com/pt-br/dotnet/csharp/linq/
