@@ -48,23 +48,13 @@ namespace Cepom
             Console.Write($"municipioDoTomadorExigeCPOM: {municipioDoTomadorExigeCPOM} ");
             Console.WriteLine($"possuiCPOM: {possuiCPOM} ");      
             
+            //Início do trecho para alteração
             Iniciar();
             IncluirContasAPagar();
-            
-            if (naturezaCalculaISS)
-            {
-            
-                if (!fornecedorRecolheISS)
-                TributarPrestadorDeServicos();
-                
-                if (fornecedorDeOutroMunicipio)
-                if (municipioDoTomadorExigeCPOM)
-                    if (!possuiCPOM)
-                    TributarTomadorDeServicos();
-                        
-            }      
-            
+            TributarPrestadorDeServicos();
+            TributarTomadorDeServicos();
             Finalizar();
+            //Fim do trecho para alteração
             
             Console.WriteLine();
         }

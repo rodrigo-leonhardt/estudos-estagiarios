@@ -15,7 +15,7 @@
 ```
 
 2) Alterar o trecho destacado no código presente no projeto **Cepom**, a fim de implementar o fluxo ilustrado abaixo, de modo que o resultado da execução seja:
-!(/Assets/fluxo_cpom.png)
+![img](https://raw.githubusercontent.com/rodrigo-leonhardt/estudos-estagiarios/main/Semana%2002/Assets/fluxo_cpom.png)
 ```
    > naturezaCalculaISS: False fornecedorRecolheISS: False fornecedorDeOutroMunicipio: False municipioDoTomadorExigeCPOM: False possuiCPOM: False 
    Iniciar
@@ -78,3 +78,29 @@
 
 #### Jump Statements
 - https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/jump-statements
+
+## Typescript (Angular)
+
+#### Debug com Visual Studio Code
+- https://youtu.be/Lczqac3paNM
+
+#### if...else
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+
+#### switch
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/switch
+
+#### for
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+
+#### for..of
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...of
+
+#### for..in
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for...in
+
+#### while
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
+
+#### do..while
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/do...while
