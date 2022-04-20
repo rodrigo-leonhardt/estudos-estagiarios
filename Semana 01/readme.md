@@ -10,7 +10,7 @@
 #### Apostila - Lógica de programação (estudar capítulos 1 a 7)
 - https://ftp.unicamp.br/pub/apoio/treinamentos/logica/logica.pdf 
 
-#### Algoritmos com Pseudocódigo (Portugol) (focar em Algoritmos sequenciais, Desvios condicionais, Laços de repetição, Subrotinas)
+#### Algoritmos com Pseudocódigo (Portugol) (focar em Algoritmos sequenciais, Desvios condicionais, Laços de repetição e Subrotinas)
 - https://portugol-webstudio.cubos.io/ide
 
 #### Curso Algoritmos (opcional)
