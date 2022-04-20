@@ -49,7 +49,7 @@
  Para que não seja necessário instalar e configurar um ambiente propício em sua máquina, os exercícios seguintes devem ser implementados diretamente no site (link) proposto.
  Basta escrever o código e clicar no botão "Run" para que o resultado seja exibido do lado direito da janela.
 
- 3) Alterar o trecho destacado [neste link](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgSwIYQCJIMoFMC2SxIwBcMYArjgEZYBOA2gLowC8MdAjADQwBM3AzNwAs3AKzcAbNwDs3ABwMA3AChlAejUBJMAFvgCEPENQaWYAAtDAByQ1CSADZRaSAOcBjkOrUAxBDiMYEzNLGBs7GEdnOw8QIA), utilizando as instruções **forEach** e **switch**, para que o resultado da execução seja o seguinte:
+ 3) Alterar o trecho destacado [neste link](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgSwIYQCJIMoFMC2SxIwBcMYArjgEZYBOA2gLowC8MdAjADQwBM3AzNwAs3AKzcAbNwDs3ABwMA3AChlAejUBJMAFvgCEPENQaWYAAtDAByQ1CSADZRaSAOcBjkMtCQQDrAB0DiAA5gAUAOQASlgQZE5IcIaEELQwCDhWphAQIBEAlCoaAGIZRjAmZpYwNnYwjs52HiBAA), utilizando as instruções **forEach** e **switch**, para que o resultado da execução seja o seguinte:
  
 ```
    [LOG]: "Dia 1 é Domingo" 
