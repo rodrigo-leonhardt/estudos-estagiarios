@@ -1,6 +1,6 @@
 # Exercícios
 
-1) O arquivo Exemplo.db é um banco de dados SQLite que possui a tabela Cliente, que deve ser mapeada e utilizada através do Entity Framework.
+1) O arquivo **Exemplo.db** é um banco de dados SQLite que possui a tabela **Cliente**, que deve ser mapeada e utilizada através do Entity Framework.
 Consulte as referências abaixo para realizar o scaffold (geração do DbContext e modelos) e depois realize as alterações nos trechos destacados do código, para que o resultado da execução seja o seguinte:
 
 ```sh
