@@ -1,6 +1,6 @@
 # Exercícios
 
-Realizar e apresentar o exercício 5 do capítulo 6.1 (página 24) da apostila referenciada abaixo
+1) Realizar e apresentar o exercício 5 do capítulo 6.1 (página 24) da apostila referenciada abaixo
 
 # Referências
 
@@ -10,13 +10,8 @@ Realizar e apresentar o exercício 5 do capítulo 6.1 (página 24) da apostila r
 #### Apostila - Lógica de programação (estudar capítulos 1 a 7)
 - https://ftp.unicamp.br/pub/apoio/treinamentos/logica/logica.pdf 
 
-#### Algoritmos com Pseudocódigo (Portugol)
+#### Algoritmos com Pseudocódigo (Portugol) (focar em Algoritmos sequenciais, Desvios condicionais, Laços de repetição, Subrotinas)
 - https://portugol-webstudio.cubos.io/ide
-Focar nos exemplos das seguintes categorias:
-+ Algoritmos sequenciais
-+ Desvios condicionais
-+ Laços de repetição
-+ Subrotinas
 
 #### Curso Algoritmos (opcional)
 - https://pt.khanacademy.org/computing/computer-science/algorithms
