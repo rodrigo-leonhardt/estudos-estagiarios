@@ -1,5 +1,7 @@
 # Exercícios
 
+## C#
+
 1) Alterar o trecho destacado no código presente no projeto **DiasDaSemana**, utilizando as instruções **FOR** e **IF...ELSE**, para que o resultado da execução seja:
 ```
    Dias da semana
@@ -41,6 +43,24 @@
    TributarTomadorDeServicos
    Finalizar
  ```
+
+ ## Typescript (Angular)
+
+ Para que não seja necessário instalar e configurar um ambiente propício em sua máquina, os exercícios seguintes devem ser implementados diretamente no site (link) proposto.
+ Basta escrever o código e clicar no botão "Run" para que o resultado seja exibido do lado direito da janela.
+
+ 3) Alterar o trecho destacado para que o resultado da execução seja o seguinte:
+ [link](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgSwIYQCJIMoFMC2SxIwBcMYArjgEZYBOA2gLowC8MdAjADQwBM3AzNwAs3AKzcAbNwDs3ABwMA3AChlAejUBJMAFvgCEPENQaWYAAtDAByQ1CSADZRaSAOcBjkOrUAxBDiMYEzNLGBs7GEdnOw8QIA)
+```
+   [LOG]: "Dia 1 é Domingo" 
+   [LOG]: "Dia 2 é Segunda-feira" 
+   [LOG]: "Dia 3 é Terça-feira" 
+   [LOG]: "Dia 4 é Quarta-feira" 
+   [LOG]: "Dia 5 é Quinta-feira" 
+   [LOG]: "Dia 6 é Sexta-feira" 
+   [LOG]: "Dia 7 é Sábado" 
+   [LOG]: "Dia 8 é Inválido" 
+```
 
 # Referências
 
