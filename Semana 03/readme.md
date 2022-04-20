@@ -3,7 +3,7 @@
 1) Executar a analisar o código do projeto **FilaEPilha**. Não é necessário realizar nenhuma alteração.
 Observe:
 - A diferença entre fila e pilha, quando os itens são retirados da coleção 
-- Como o uso de Generics nos permite tratar diferentes tipos de parâmetros dentro de um mesmo método (AdicionarItem<T> e RemoverItem<T>)
+- Como o uso de Generics nos permite tratar diferentes tipos de parâmetros dentro de um mesmo método (**AdicionarItem<T>** e **RemoverItem<T>**)
 
 2) Altere os trechos destacados no projeto **Dicionario**, de modo que o resultado da execução seja o seguinte:
 ```
