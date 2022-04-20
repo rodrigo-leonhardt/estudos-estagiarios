@@ -49,8 +49,8 @@
  Para que não seja necessário instalar e configurar um ambiente propício em sua máquina, os exercícios seguintes devem ser implementados diretamente no site (link) proposto.
  Basta escrever o código e clicar no botão "Run" para que o resultado seja exibido do lado direito da janela.
 
- 3) Alterar o trecho destacado para que o resultado da execução seja o seguinte:
- [link](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgSwIYQCJIMoFMC2SxIwBcMYArjgEZYBOA2gLowC8MdAjADQwBM3AzNwAs3AKzcAbNwDs3ABwMA3AChlAejUBJMAFvgCEPENQaWYAAtDAByQ1CSADZRaSAOcBjkOrUAxBDiMYEzNLGBs7GEdnOw8QIA)
+ 3) Alterar o trecho destacado [neste link](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgSwIYQCJIMoFMC2SxIwBcMYArjgEZYBOA2gLowC8MdAjADQwBM3AzNwAs3AKzcAbNwDs3ABwMA3AChlAejUBJMAFvgCEPENQaWYAAtDAByQ1CSADZRaSAOcBjkOrUAxBDiMYEzNLGBs7GEdnOw8QIA), utilizando as instruções **forEach** e **switch**, para que o resultado da execução seja o seguinte:
+ 
 ```
    [LOG]: "Dia 1 é Domingo" 
    [LOG]: "Dia 2 é Segunda-feira" 
@@ -60,6 +60,16 @@
    [LOG]: "Dia 6 é Sexta-feira" 
    [LOG]: "Dia 7 é Sábado" 
    [LOG]: "Dia 8 é Inválido" 
+```
+
+4) Alterar o trecho destacado [neste link](https://www.typescriptlang.org/play?#code/GYVwdgxgLglg9mABAYQIYBsInagTgSQFsAHOAZyjgBEBTAJRrABNUAKMjPeRALkTBCEARjVwBKXv0EjcAKADesxMsQB6VfjABbiNyZxEUXDQgALA8TypEGKKNQBzgMcGVypSuNQQuJAAYAbg9ldQAxGEJEfUNjMwsrG3Q7XEcXWQBfWVlQSFgEFAwsHFwAUSJiXAiYAhJySloGZjYOYu4+AWFRMQU3dzcANzxEasQAXgLMbDxyuup6RhZ2Tkq4MSDexGDECAQyOHQaADp0OABzVgADAGUMAEOVvgASeRauOHTEAEF0LQBHEDgUGs+DoT3k1XSFzWm0yWTQk2KZRIlUI1RmFDmjUWAA4-H41rJ4UU8EiKlUaqQMQ0FmwAIwAJjxBKJU1K5RRaNqVPmTVYAGY8figizEezyej6jzFgA2QVrIA), a fim de implementar o fluxo ilustrado abaixo, para que o resultado da execução seja o seguinte:
+![img](https://raw.githubusercontent.com/rodrigo-leonhardt/estudos-estagiarios/main/Semana%2002/Assets/fluxo_ir.png)
+
+```
+   [LOG]: "Salário: 800 Alíquota IR: 0" 
+   [LOG]: "Salário: 1200 Alíquota IR: 15" 
+   [LOG]: "Salário: 3000 Alíquota IR: 25" 
+   [LOG]: "Salário: 6000 Alíquota IR: 37"
 ```
 
 # Referências
