@@ -12,3 +12,4 @@ Plano de estudos que aborda C#, Angular e Banco de Dados
 - Semana 07 - C# - Entity Framework Parte 1 - DbContext e DbSets
 - Semana 08 - C# - Entity Framework Parte 2 - Adicionando, Modificando e Removendo registros
 - Semana 09 - C# - Entity Framework Parte 3 - Mapeamento por abordagem Database First
+- Semana 10 - C# - Web API Parte 1 - Controllers, Rotas e Status Codes

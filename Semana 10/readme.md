@@ -15,7 +15,9 @@ Incluir um novo sistema no **EstrelasContext**, através do **SistemaService**.
 Se o sistema for cadastrado com sucesso, o código da resposta deve ser **HTTP 204 - No Content**.
 Se o sistema não for cadastrado, uma exceção será lançada. Realizar tratamento de exceção, utilizar o código da resposta **HTTP 400 - Bad Request** e informar a mensagem da exceção no corpo da resposta.
 
-4) Executar com sucesso a API e acessar o endereço http://localhost:5204/swagger/index.html 
+4) Embora requisições HTTP possam ser formuladas, organizadas e enviadas por ferramentas como Postman, Insomnia e outras, também é possível utilizar a Swagger UI acoplada à nossa solução.
+Execute com sucesso a API e acesse o endereço http://localhost:5204/swagger/index.html 
+
 Realizar requisição à GET /Sistemas e obter o seguinte resultado
 
 ```
