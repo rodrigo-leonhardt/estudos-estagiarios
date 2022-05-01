@@ -17,12 +17,12 @@ Cada vez que esta aplicação é reiniciada os dados previamente cadastrados sã
   Nenhuma estrela cadastrada
   > Adicionando Estrelas
   > Listando Estrelas
-  - Código: 1 Nome: 'Sol' Sistema: 'Sistema Solar' Classificação: G2V Manigute Absoluta: 4,85 Distância: 0 anos-luz
-  - Código: 2 Nome: 'Proxima Centauri' Sistema: 'Alpha Centauri' Classificação: M5.5Ve Manigute Absoluta: 15,53 Distância: 4,2421 anos-luz
-  - Código: 3 Nome: 'a Centauri A' Sistema: 'Alpha Centauri' Classificação: G2V Manigute Absoluta: 4,38 Distância: 4,365 anos-luz
-  - Código: 4 Nome: 'a Centauri B' Sistema: 'Alpha Centauri' Classificação: K1V Manigute Absoluta: 5,71 Distância: 4,365 anos-luz
-  - Código: 5 Nome: 'Sirius A' Sistema: 'Sirius' Classificação: A1V Manigute Absoluta: 1,42 Distância: 8,5828 anos-luz
-  - Código: 6 Nome: 'Sirius B' Sistema: 'Sirius' Classificação: DA2 Manigute Absoluta: 11,34 Distância: 8,5828 anos-luz
+  - Código: 1 Nome: 'Sol' Sistema: 'Sistema Solar' Classificação: G2V Magnigute Absoluta: 4,85 Distância: 0 anos-luz
+  - Código: 2 Nome: 'Proxima Centauri' Sistema: 'Alpha Centauri' Classificação: M5.5Ve Magnigute Absoluta: 15,53 Distância: 4,2421 anos-luz
+  - Código: 3 Nome: 'a Centauri A' Sistema: 'Alpha Centauri' Classificação: G2V Magnigute Absoluta: 4,38 Distância: 4,365 anos-luz
+  - Código: 4 Nome: 'a Centauri B' Sistema: 'Alpha Centauri' Classificação: K1V Magnigute Absoluta: 5,71 Distância: 4,365 anos-luz
+  - Código: 5 Nome: 'Sirius A' Sistema: 'Sirius' Classificação: A1V Magnigute Absoluta: 1,42 Distância: 8,5828 anos-luz
+  - Código: 6 Nome: 'Sirius B' Sistema: 'Sirius' Classificação: DA2 Magnigute Absoluta: 11,34 Distância: 8,5828 anos-luz
 ```
 
 3) Observe através da Swagger UI (http://localhost:5204/swagger/index.html) como as chamadas realizadas no exercício 2 alteraram os dados cadastrados.
