@@ -13,6 +13,7 @@ builder.Services.AddDbContext<EstrelasContext>(
 
 builder.Services.AddScoped<EstrelasContext, EstrelasContext>();
 builder.Services.AddScoped<SistemaService>();
+//builder.Services.AddScoped<EstrelaService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

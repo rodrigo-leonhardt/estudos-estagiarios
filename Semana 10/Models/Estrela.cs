@@ -11,9 +11,6 @@ namespace WebApi01.Models
         public int SistemaCodigo { get; set; }
         public string Classificacao { get; set; }
         public decimal MagnitudeAbsoluta { get; set; }
-        public decimal Distancia { get; set; }
-        
-        [ForeignKey("Codigo")]
-        public virtual Sistema Sistema { get; set; }
+        public decimal Distancia { get; set; }        
     }
 }
