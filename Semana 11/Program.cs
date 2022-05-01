@@ -71,7 +71,7 @@ namespace Semana11
             }
 
             foreach(var estrela in _estrelas)
-                Console.WriteLine($"- Código: {estrela.Codigo} Nome: '{estrela.Nome}' Sistema: '{_sistemas?.FirstOrDefault(s => s.Codigo == estrela.SistemaCodigo)?.Nome}' Classificação: {estrela.Classificacao} Manigute Absoluta: {estrela.MagnitudeAbsoluta} Distância: {estrela.Distancia} anos-luz");
+                Console.WriteLine($"- Código: {estrela.Codigo} Nome: '{estrela.Nome}' Sistema: '{_sistemas?.FirstOrDefault(s => s.Codigo == estrela.SistemaCodigo)?.Nome}' Classificação: {estrela.Classificacao} Magnitude Absoluta: {estrela.MagnitudeAbsoluta} Distância: {estrela.Distancia} anos-luz");
 
         }
 
