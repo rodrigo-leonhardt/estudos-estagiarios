@@ -15,3 +15,4 @@ Plano de estudos que aborda C#, Angular e Banco de Dados
 - Semana 10 - C# - Web API Parte 1 - Controllers, Rotas e Status Codes
 - Semana 11 - C# - Web API Parte 2 - Consumo de APIs
 - Semana 12 - HTML
+- Semana 13 - CSS
