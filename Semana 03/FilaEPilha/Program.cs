@@ -18,8 +18,8 @@ namespace FilaEPilha
             Console.WriteLine("> Utilização de Stack (LIFO - Last In First Out)");
 
             var pilhaClientes = new Stack<string>();
-            AdicionarItens(filaClientes);
-            RemoverItens(filaClientes);
+            AdicionarItens(pilhaClientes);
+            RemoverItens(pilhaClientes);
         }
 
         static void AdicionarItens(IReadOnlyCollection<string> itens)
