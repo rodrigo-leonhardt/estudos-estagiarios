@@ -31,12 +31,6 @@ Suas cores devem ser, respectivamente, blue, blueviolet e cadetblue.
 - https://angular.io/guide/lifecycle-hooks
 - https://youtu.be/4Z543sAKmBA
 
-#### Compartilhando dados entre componentes
-- https://angular.io/guide/inputs-outputs
-
-#### Pipes
-- https://angular.io/guide/pipes
-
 #### Interpolação e Data Bindings (Importantíssimo!!)
 - https://angular.io/guide/interpolation
 - https://angular.io/guide/property-binding
