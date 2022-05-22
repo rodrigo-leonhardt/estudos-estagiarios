@@ -1,0 +1,16 @@
+<div id="divPai">
+
+    <h2>pai.component</h2>    
+
+    Número de filhos: {{numeroFilhos}}<br/>
+    <hr/>
+    
+    Nome do filho: <input type="text" [(ngModel)]="nomeNovoFilho"/> 
+    <button (click)="incluirFilho()">Incluir</button><br/>
+    <br/>    
+
+    <!-- Início do trecho para alteração -->
+    <app-filho></app-filho>
+    <!-- Fim do trecho para alteração -->
+
+</div>

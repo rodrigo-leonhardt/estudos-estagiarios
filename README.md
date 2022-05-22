@@ -17,3 +17,4 @@ Plano de estudos que aborda C#, Angular e Banco de Dados
 - Semana 12 - HTML
 - Semana 13 - CSS
 - Semana 14 - Angular - Componentes, Templates e Binding
+- Semana 15 - Angular - Diretivas, Pipes e Comunicação entre componentes
