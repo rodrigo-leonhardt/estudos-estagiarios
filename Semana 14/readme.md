@@ -8,9 +8,9 @@ Suas cores devem ser, respectivamente, blue, blueviolet e cadetblue.
 
 2) Modificar o trecho destacado no arquivo **pai.component.html** para que a propriedade **numeroFilhos** seja exibida em seu devido local (property binding).
 
-2) Modificar o trecho destacado no arquivo **pai.component.html** para que a propriedade **nomeNovoFilho** esteja associada ao text input, de modo que o conteúdo digitado seja refletido no valor da propriedade (two-way binding).
+3) Modificar o trecho destacado no arquivo **pai.component.html** para que a propriedade **nomeNovoFilho** esteja associada ao text input, de modo que o conteúdo digitado seja refletido no valor da propriedade (two-way binding).
 
-2) Modificar o trecho destacado no arquivo **pai.component.html** para que o evento **incluirFilho** seja disparado ao clicar no botão Incluir (event binding).
+4) Modificar o trecho destacado no arquivo **pai.component.html** para que o evento **incluirFilho** seja disparado ao clicar no botão Incluir (event binding).
 
 ## Resultado
 ![img](https://raw.githubusercontent.com/rodrigo-leonhardt/estudos-estagiarios/main/Semana%2014/Assets/imgResultado.png)
