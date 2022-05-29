@@ -2,7 +2,7 @@
 
 1) Modificar o trecho destacado no arquivo **pai.component.html** para que a tag **app-filho** seja "repetida" de acordo com o array **listaFilhos** (diretiva NgFor).
 
-2) Modifique os trechos destacados nos arquivos **pai.component.html** e **filho.component.ts**, para que as propriedades **nome** e **indice** seja comunicadas do componente pai para o componente filho, usando property binding.
+2) Modifique os trechos destacados nos arquivos **pai.component.html** e **filho.component.ts**, para que as propriedades **nome** e **indice** sejam comunicadas do componente pai para o componente filho, usando property binding.
 
 3) Modificar o trecho destacado no arquivo **filho.component.html** para que a tag **h3** (título) fique visível apenas quando a propriedade **exibir** for verdadeira (diretiva NgIf).
 Essa propriedade é alterada ao marcar/desmarcar o checkbox input "Exibir título"
