@@ -34,9 +34,12 @@ namespace ExemploLinq
             Console.WriteLine();
             Console.WriteLine("3. Valor total das notas por fornecedor");
 
-            //Início do trecho para alteração
-            var valorTotalNotasPorFornecedor = NotaFiscal.Lista.???;
-            //Fim do trecho para alteração
+            //Início do trecho para análise
+            var valorTotalNotasPorFornecedor = NotaFiscal.Lista
+                .Join(Fornecedor.Lista, nf => nf.CodigoFornecedor, f => f.Codigo, (nf, f) => new { NotaFiscal = nf, Fornecedor = f})
+                .GroupBy(x => x.NotaFiscal.CodigoFornecedor)
+                .Select(x => new { Fornecedor = x.First().Fornecedor.Nome, Valor = x.Sum(y => y.NotaFiscal.ValorTotal)});
+            //Fim do trecho para análise
 
             foreach(var item in valorTotalNotasPorFornecedor)
                 Console.WriteLine("- Fornecedor: '{0}' Valor Total: {1:C}", item.Fornecedor, item.Valor);
