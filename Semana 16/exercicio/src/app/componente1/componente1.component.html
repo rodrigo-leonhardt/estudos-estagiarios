@@ -1,0 +1,24 @@
+<h2>componente1</h2>
+
+<!-- Início do trecho para alteração -->
+<form #formularioExemplo="ngForm" class="formularioExemplo">
+<!-- Fim do trecho para alteração -->
+    
+    Primeiro nome<br/>
+    <!-- Início do trecho para alteração -->
+    <input type="text" id="txtPrimeiroNome" name="txtPrimeiroNome" />
+    <!-- Fim do trecho para alteração -->
+    <span>Primeiro nome é obrigatório e deve ter pelo menos 5 caracteres</span><br/>    
+    <br/>
+    
+    Último nome<br/>
+    <!-- Início do trecho para alteração -->
+    <input type="text" id="txtUltimoNome" name="txtUltimoNome" /><br/>    
+    <!-- Fim do trecho para alteração -->
+    <br/>    
+
+    <!-- Início do trecho para alteração -->
+    <button type="submit" [disabled]="false">Enviar</button>
+    <!-- Fim do trecho para alteração -->
+
+</form>
