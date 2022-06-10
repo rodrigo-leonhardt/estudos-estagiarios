@@ -1,0 +1,13 @@
+#meuFormulario {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+.mat-column-Nome {
+    width: 300px;
+    font-weight: bold;
+}
+  

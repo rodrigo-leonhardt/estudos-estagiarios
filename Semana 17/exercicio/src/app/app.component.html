@@ -1,0 +1,41 @@
+<form id="meuFormulario" [formGroup]="meuFormulario" (ngSubmit)="onSubmit()">
+
+  <!-- Início do trecho para análise -->
+
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Primeiro nome</mat-label>
+      <input matInput placeholder="Ex. Rodrigo" formControlName="controleNome">
+      <mat-hint align="start">Este campo é obrigatório</mat-hint>
+      <mat-error *ngIf="meuFormulario.controls['controleNome'].invalid">Você ainda não preencheu este campo</mat-error>
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Sobrenome</mat-label>
+      <input matInput placeholder="Ex. Leonhardt" formControlName="controleSobrenome">
+      <mat-hint align="start">Este campo também é obrigatório</mat-hint>
+      <mat-error *ngIf="meuFormulario.controls['controleSobrenome'].invalid">Você ainda não preencheu este campo</mat-error>
+    </mat-form-field>
+  </p>
+
+  <br/>
+  
+  <button mat-raised-button color="primary" type="submit" [disabled]="!meuFormulario.valid">Incluir</button>  
+
+  <!-- Fim do trecho para análise -->
+</form>
+
+<br/>
+<hr/>
+<br/>
+<br/>
+
+<div class="mat-elevation-z8">
+
+  <!-- Início do trecho para alteração -->
+
+  <!-- Fim do trecho para alteração -->
+
+</div>
