@@ -1,0 +1,8 @@
+<button (click)="listarSistemas()">Listar Sistemas</button>
+<button (click)="pesquisarSistema()">Pesquisar Sistema</button>
+<button (click)="incluirSistema()">Incluir Sistema</button>
+
+<hr>
+
+<h3>Lista de sistemas</h3>
+<li *ngFor="let sistema of sistemas"><b>Código</b> {{sistema.codigo}} <b>Nome</b> {{sistema.nome}}</li>
