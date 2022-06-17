@@ -1,6 +1,6 @@
 # Exercícios
 
-1) No exercício desta semana, consumiremos a API desenvolvida na semana 10. 
+1) No exercício desta semana, a API desenvolvida na semana 10 será utilizada. 
 Considerando que o endereço da API é http://localhost:5204 e o endereço da aplicação Angular da semana atual é http://localhost:4200, as chamadas serão bloqueadas por políticas CORS. 
 Para que o acesso seja liberado, inclua a linha destacada abaixo no arquivo **Program.cs** da Semana 10.
 
@@ -23,10 +23,10 @@ Após realiza a alteração, mantenha a API em execução para utilização pela
 2) Altere os trechos destacados no arquivo **sistema.service.ts** para que a API seja consumida a fim de listar todos os sistemas já cadastrados e incluir um novo sistema.
 
 3) Modificar o trecho destacado no arquivo **app.component.ts** para utilizar os métodos disponibilizados pelo serviço acima. 
-No método **incluirSistema**, após a inclusão bem sucedida, o método **listarSistemas** deve ser invocado. Isso atualizará em tela a lisagtem dos sistemas atualmente cadastrados.
-No método **pesquisarSistema** uma mensagem deve exibir o nome (alert) do sistema pesquisado quando a chamada for bem sucedida. Quando a chamada falhar a descrição do erro deve ser exibida (alert).
+No método **incluirSistema**, após a inclusão bem sucedida, o método **listarSistemas** deve ser invocado. Isso atualizará em tela os sistemas atualmente cadastrados.
+No método **pesquisarSistema** uma mensagem deve exibir o nome do sistema pesquisado (alert) quando a chamada for bem sucedida. Quando a chamada falhar a descrição do erro deve ser exibida (alert).
 
-4) Após concluir as alterações, interaja com a aplicação pelo navegador para realizar as seguintes atividades.
+4) Após concluir as alterações, interaja com a aplicação pelo navegador para realizar as seguintes atividades:
 
 #### Incluir sistemas
 
