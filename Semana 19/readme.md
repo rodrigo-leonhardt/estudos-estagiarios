@@ -1,6 +1,6 @@
 # Exercícios
 
-Este exercício propõe a utilização dos conteúdos aprendidos nas semanas anteriores para constuir uma aplicação frontend (Angular) que se comunicará com uma API (C#) para realizar operações CRUD. 
+Este exercício propõe a aplicação dos conteúdos aprendidos nas semanas anteriores para constuir uma aplicação frontend (Angular) que se comunicará com uma API (C#) para realizar operações CRUD. 
 
 Os respectivos projetos foram pré-configurados e disponibilizados nos diretórios **Exercicio/Api** e **Exercicio/Frontend**.
 
@@ -24,9 +24,9 @@ Os seguintes requisitos devem ser atendidos:
 
 Também deve haver um botão, fora da tabela, para incluir um novo livro.
 
-3) A tela de dados do livro deve utilizar os recursos disponíveis no Material, como matInput, mat-form-field, mat-label, mat-button, etc.
+3) A tela de dados do livro deve utilizar recursos disponibilizados pelo Material, como matInput, mat-form-field, mat-label, mat-button, etc.
 
-4) A tela de dados do livro deve utilizar formulário (template-driven ou reactive) para exigir o preenchimento de campos obrigatórios.
+4) A tela de dados do livro deve utilizar formulário (abordagem template-driven ou reactive) e exigir o preenchimento de campos obrigatórios (todos os campos).
 
 5) Um modelo deve ser criado para representar um **Livro**, com as propriedades necessárias.
 
