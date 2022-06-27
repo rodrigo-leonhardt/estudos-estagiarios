@@ -21,3 +21,4 @@ Plano de estudos que aborda C#, Angular e Banco de Dados
 - Semana 16 - Angular - Rotas e Formulários
 - Semana 17 - Angular - Material Design
 - Semana 18 - Angular - HttpClient
+- Semana 19 - Projeto final
