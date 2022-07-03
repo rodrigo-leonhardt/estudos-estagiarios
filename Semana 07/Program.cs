@@ -24,7 +24,8 @@ namespace EF01
             var cliente3 = new Cliente { Codigo = 3, Nome = "Maria" };
 
             //Início do trecho para alteração
-            
+            contexto.Clientes.AddRange(cliente1, cliente2, cliente3);
+            contexto.SaveChanges();            
             //Fim do trecho para alteração
         }
 
