@@ -6,7 +6,9 @@ import { Componente2Component } from './componente2/componente2.component';
 
 const routes: Routes = [
   //Início do trecho para alteração
-  
+  {path: 'componente1', component: Componente1Component},
+  {path: 'componente2/:nome', component: Componente2Component},
+  {path: '**', component: Componente0Component}
   //Fim do trecho para alteração
 ];
 

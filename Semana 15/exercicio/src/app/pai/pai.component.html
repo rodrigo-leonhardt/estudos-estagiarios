@@ -10,7 +10,7 @@
     <br/>    
 
     <!-- Início do trecho para alteração -->
-    <app-filho></app-filho>
+    <app-filho *ngFor="let filho of listaFilhos; let idx=index" [nome]="filho" [indice]="idx"></app-filho>
     <!-- Fim do trecho para alteração -->
 
 </div>

@@ -7,33 +7,33 @@ using WebApi01.Services;
 namespace WebApi01.Controllers;
 
 [ApiController]
-[Route("Sistemas")]
-public class SistemaController : ControllerBase
+[Route("Estrelas")]
+public class EstrelaController : ControllerBase
 {
-    readonly SistemaService _sistemaService;
+    readonly EstrelaService _estrelaService;
     
-    public SistemaController(SistemaService sistemaService)
+    public EstrelaController(EstrelaService estrelaService)
     {
-        _sistemaService = sistemaService;
+        _estrelaService = estrelaService;
     }
 
     //Início do trecho para alteração
     [HttpGet]
     //Fim do trecho para alteração
-    public ActionResult<List<Sistema>> Listar()
+    public ActionResult<List<Estrela>> Listar()
     {
         //Início do trecho para alteração
-        return Ok(_sistemaService.Listar());
+        return _estrelaService.Listar();
         //Fim do trecho para alteração
     }
 
     //Início do trecho para alteração
     [HttpGet("{codigo}")]
     //Fim do trecho para alteração
-    public ActionResult<Sistema> Pesquisar(int codigo)
+    public ActionResult<Estrela> Pesquisar(int codigo)
     {
         //Início do trecho para alteração
-        var sistema = _sistemaService.Pesquisar(codigo);
+        var sistema = _estrelaService.Pesquisar(codigo);
 
         if (sistema == null)
             return NotFound();
@@ -45,12 +45,12 @@ public class SistemaController : ControllerBase
     //Início do trecho para alteração
     [HttpPost]
     //Fim do trecho para alteração
-    public ActionResult Incluir([FromBody] Sistema sistema)
+    public ActionResult Incluir([FromBody] Estrela estrela)
     {
         //Início do trecho para alteração    
-        _sistemaService.Incluir(sistema.Codigo, sistema.Nome);
+        _estrelaService.Incluir(estrela);
 
-        return Ok();
+        return NoContent();
         //Fim do trecho para alteração        
     }
 

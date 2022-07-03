@@ -4,11 +4,11 @@
 
     <!-- Início do trecho para alteração -->
 
-    Número de filhos: ?<br/>
+    Número de filhos: {{numeroFilhos}}<br/>
     <hr/>
     
-    Nome do filho: <input type="text"/> 
-    <button>Incluir</button><br/>
+    Nome do filho: <input type="text" [(ngModel)]="nomeNovoFilho"/> 
+    <button (click)="incluirFilho()">Incluir</button><br/>
     <br/>
 
     <!-- Fim do trecho para alteração -->

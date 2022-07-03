@@ -31,7 +31,7 @@ namespace EF01
         static void ListarClientes(ContextoExemplo contexto)
         {
             //Início do trecho para alteração
-            var clientes = ;
+            var clientes = contexto.Clientes;
             //Fim do trecho para alteração
 
             Console.WriteLine("-- Clientes --");
@@ -48,14 +48,15 @@ namespace EF01
             var nf1002 = new NotaFiscal { Numero = 1002, Valor = 50, CodigoCliente = 2 };
 
             //Início do trecho para alteração
-            
+            contexto.NotasFiscais.AddRange(nf1000, nf1001, nf1002);
+            contexto.SaveChanges();
             //Fim do trecho para alteração
         }
 
         static void ListarNotasFiscais(ContextoExemplo contexto, int codigoCliente)
         {
             //Início do trecho para alteração
-            var notasFiscais = ;
+            var notasFiscais = contexto.NotasFiscais.Where(x => x.CodigoCliente == codigoCliente);
             //Fim do trecho para alteração
 
             Console.WriteLine($"-- Notas Fiscais do Cliente {codigoCliente} --");

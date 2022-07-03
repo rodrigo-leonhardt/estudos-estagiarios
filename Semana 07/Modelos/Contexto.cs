@@ -11,8 +11,8 @@ namespace EF01.Modelos
         }
 
         //Início do trecho para alteração
-        public ?? Clientes { get; set; }
-        public ?? NotasFiscais { get; set; }
+        public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<NotaFiscal> NotasFiscais { get; set; }
         //Fim do trecho para alteração
 
     }

@@ -18,7 +18,9 @@ namespace ExemploDelegates
         public static void Executar()
         {
             //Início do trecho para alteração
-            
+            ResultadoDaSoma del1 = ImprimirResultadoDaSoma1;
+            ResultadoDaSoma del2 = ImprimirResultadoDaSoma2;
+            ResultadoDaSoma delegados = del1 + del2;
             //Fim do trecho para alteração
 
             //O terceiro parâmetro é um MulticastDelegate

@@ -13,7 +13,7 @@ builder.Services.AddDbContext<EstrelasContext>(
 
 builder.Services.AddScoped<EstrelasContext, EstrelasContext>();
 builder.Services.AddScoped<SistemaService>();
-//builder.Services.AddScoped<EstrelaService>();
+builder.Services.AddScoped<EstrelaService>();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -24,6 +24,9 @@ var app = builder.Build();
 
 app.UseSwagger();
 app.UseSwaggerUI();
+
+//Linha abaixo permite acesso de outras origens
+app.UseCors(builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 
 app.MapControllers();
 

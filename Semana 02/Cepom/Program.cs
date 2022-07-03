@@ -51,8 +51,20 @@ namespace Cepom
             //Início do trecho para alteração
             Iniciar();
             IncluirContasAPagar();
-            TributarPrestadorDeServicos();
-            TributarTomadorDeServicos();
+
+            if (naturezaCalculaISS)
+            {
+
+                if (!fornecedorRecolheISS)
+                    TributarPrestadorDeServicos();
+
+                if (fornecedorDeOutroMunicipio)
+                    if (municipioDoTomadorExigeCPOM)
+                        if (!possuiCPOM)
+                            TributarTomadorDeServicos();
+
+            }
+            
             Finalizar();
             //Fim do trecho para alteração
             

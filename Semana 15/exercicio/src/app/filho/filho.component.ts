@@ -8,12 +8,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class FilhoComponent implements OnInit {
 
   //Início do trecho para alteração
-  
+  @Input()
   //Fim do trecho para alteração
   nome : string = '';
 
   //Início do trecho para alteração
-  
+  @Input()
   //Fim do trecho para alteração
   indice : number = 0;
 

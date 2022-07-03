@@ -19,7 +19,7 @@ namespace Semana11.Services
         public List<Sistema> Listar()
         {            
             //Início do trecho para alteração
-            var response = _httpClient.??????; 
+            var response = _httpClient.GetFromJsonAsync<List<Sistema>>("").Result; 
             //Fim do trecho para alteração
 
             if (response == null)           
@@ -31,7 +31,7 @@ namespace Semana11.Services
         public Sistema? Pesquisar(int codigo)
         {
             //Início do trecho para alteração
-            var response = _httpClient.??????;
+            var response = _httpClient.GetFromJsonAsync<Sistema>($"/{codigo}").Result;
             //Fim do trecho para alteração
 
             return response;            
@@ -39,8 +39,10 @@ namespace Semana11.Services
 
         public void Incluir(int codigo, string nome)
         {
-            //Início do trecho para alteração            
-            var result = _httpClient.??????;
+            //Início do trecho para alteração        
+            var sistema = new Sistema { Codigo = codigo, Nome = nome };
+    
+            var result = _httpClient.PostAsJsonAsync<Sistema>("", sistema).Result;
             //Fim do trecho para alteração
 
             result.EnsureSuccessStatusCode();            

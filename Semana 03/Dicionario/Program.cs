@@ -24,14 +24,14 @@ namespace Dicionario
         static void AdicionarDiaDaSemana(int dia, string nome)
         {
             //Início do trecho para alteração
-            diasDaSemana.?????;
+            diasDaSemana.Add(dia, nome);
             //Fim do trecho para alteração
         }
 
         static void ConsultarNomeDoDiaDaSemana(int dia)
         {
             //Início do trecho para alteração
-            Console.WriteLine(diasDaSemana???????);
+            Console.WriteLine(diasDaSemana[dia]);
             //Fim do trecho para alteração
         }
 

@@ -35,7 +35,9 @@ export class AppComponent implements OnInit {
     var sistema : Sistema = { codigo : 0, nome : nomeDigitado };
 
     //Início do trecho para alteração
-    this.listarSistemas();    
+    this.sistemaService.Incluir(sistema).subscribe(
+      sucesso => this.listarSistemas()
+      );
     //Fim do trecho para alteração
   }
 
@@ -48,7 +50,9 @@ export class AppComponent implements OnInit {
     var codigo = Number.parseInt(codigoDigitado);
 
     //Início do trecho para alteração
-    alert('mensagem');
+    this.sistemaService.Pesquisar(codigo).subscribe(
+      sucesso => alert(sucesso.nome),
+      erro => alert(erro.message));
     //Fim do trecho para alteração
 
   }

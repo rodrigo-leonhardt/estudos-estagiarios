@@ -19,7 +19,7 @@ namespace Semana11.Services
         public List<Estrela> Listar()
         {            
             //Início do trecho para alteração
-            var response = _httpClient.??????; 
+            var response = _httpClient.GetFromJsonAsync<List<Estrela>>("").Result;
             //Fim do trecho para alteração
 
             if (response == null)           
@@ -31,7 +31,7 @@ namespace Semana11.Services
         public Estrela? Pesquisar(int codigo)
         {
             //Início do trecho para alteração
-            var response = _httpClient.??????;
+            var response = _httpClient.GetFromJsonAsync<Estrela>($"/{codigo}").Result;
             //Fim do trecho para alteração
 
             return response;            
@@ -40,7 +40,7 @@ namespace Semana11.Services
         public void Incluir(Estrela estrela)
         {        
             //Início do trecho para alteração    
-            var result = _httpClient.??????;
+            var result = _httpClient.PostAsJsonAsync<Estrela>("", estrela).Result;
             //Fim do trecho para alteração
 
             result.EnsureSuccessStatusCode();            

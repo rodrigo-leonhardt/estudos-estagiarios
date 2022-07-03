@@ -11,7 +11,7 @@ namespace ExemploLinq
             Console.WriteLine("1. Fornecedores ordenados por Nome");
 
             //Início o trecho para alteração
-            var fornecedoresOrdenados = ;
+            var fornecedoresOrdenados = Fornecedor.Lista.OrderBy(f => f.Nome);
             //Fim do trecho para alteração
 
             foreach(var fornecedor in fornecedoresOrdenados)
@@ -23,7 +23,7 @@ namespace ExemploLinq
             Console.WriteLine("2. Notas Fiscais do fornecedor 2");
 
             //Início o trecho para alteração            
-            var notasFiscaisFornecedor2 = ;
+            var notasFiscaisFornecedor2 = NotaFiscal.Lista.Where(nf => nf.CodigoFornecedor == 2);
             //Fim do trecho para alteração
 
             foreach(var notaFiscal in notasFiscaisFornecedor2)

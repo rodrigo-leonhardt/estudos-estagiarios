@@ -18,13 +18,13 @@ export class SistemaService {
 
   Listar() : Observable<Sistema[]> {
     //Início do trecho para alteração
-    return ;
+    return this.http.get<Sistema[]>(this.apiUrl);
     //Fim do trecho para alteração
   }
 
   Incluir(sistema : Sistema) : Observable<any> {
     //Início do trecho para alteração
-    return ;
+    return this.http.post(this.apiUrl, sistema);
     //Fim do trecho para alteração
   }
 

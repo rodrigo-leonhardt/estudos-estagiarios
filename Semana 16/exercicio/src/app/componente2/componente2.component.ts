@@ -19,7 +19,7 @@ export class Componente2Component implements OnInit {
 
   onUpdateRoute(params : Params) : void {
     //Início do trecho para alteração
-    
+    this.nome = params['nome'];
     //Fim do trecho para alteração
   }
 

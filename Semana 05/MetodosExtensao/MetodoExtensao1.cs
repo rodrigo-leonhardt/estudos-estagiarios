@@ -20,7 +20,10 @@ namespace ExemploMetodoExtensao
     {
 
         //Início do trecho para aleração
-        
+        public static void ImprimirTextoNaTela(this string texto)
+        {
+            Console.WriteLine(texto);
+        }        
         //Fim do trecho para alteração
 
     }

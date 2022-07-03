@@ -28,7 +28,7 @@ namespace ExemploLambda
             Console.WriteLine("Usando função lambda");
 
             //Início do trecho para aleração
-            Somar funcaoLambda = null;
+            Somar funcaoLambda = (val1, val2) => val1 + val2;
             //Fim do trecho para aleração
 
             z = funcaoLambda(x, y);
