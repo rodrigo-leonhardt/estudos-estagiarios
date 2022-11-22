@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using ef03.Modelos;
 
 namespace ef03
 {
@@ -22,7 +23,10 @@ namespace ef03
             Console.WriteLine($"> Incluindo cliente {codigo} {nome}");
 
             //Início do trecho para alteração
+            using var db = new ContextoExemplo();
 
+            db.Clientes.Add(new Cliente { Codigo = codigo, Nome = nome });
+            db.SaveChanges();
             //Fim do trecho para alteração
         }
 
@@ -31,6 +35,11 @@ namespace ef03
             Console.WriteLine("> Listando clientes ordenados");
 
             //Início do trecho para alteração
+            using var db = new ContextoExemplo();
+            var clientes = db.Clientes.OrderBy(x => x.Nome).ToList();
+
+            foreach(var cliente in clientes)
+                Console.WriteLine($"- {cliente.Codigo} {cliente.Nome}");
 
             //Fim do trecho para alteração            
         }
@@ -40,7 +49,9 @@ namespace ef03
             Console.WriteLine("> Deletando clientes");
 
             //Início do trecho para alteração
-
+            using var db = new ContextoExemplo();
+            db.Clientes.RemoveRange(db.Clientes.ToArray());
+            db.SaveChanges();
             //Fim do trecho para alteração
         }
 
